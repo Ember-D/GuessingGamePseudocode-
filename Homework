@@ -1,19 +1,22 @@
 Define rand interger
 Define inpt interger as 0
 Define tries interger as 0
+Define game string
 
-Computer generates random number as rand 
+While game does not equal Y
 
-While (inpt does not equal rand) and (tries is less than or equal to 7)
+  Computer generates random number as rand 
 
-  Output "Guess the random number"
+  While (inpt does not equal rand) and (tries is less than or equal to 7)
 
-  Input user number as inpt
+    Output "Guess the random number"
 
-  If inpt does not equal rand
+    Input user number as inpt
+
+    If inpt does not equal rand
       Ouput "Try again"
 
-  If inpt does equal rand
+    If inpt does equal rand
       Output "You Win"
 
-  Increase tries by 1
+    Increase tries by 1
